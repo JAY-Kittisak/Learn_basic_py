@@ -19,7 +19,7 @@ from PIL import Image, ImageTk
 def basic():
     root = Tk()
     root.option_add("*Font", "consolas 20")
-    img = Image.open("afadsf.jpg")
+    img = Image.open("C:/Users/AKIRA/Desktop/Python/Learn_basic_py/btn/afadsf.jpg")
     img = img.resize((int(img.width * .5), int(img.height * .5)))
     photo = ImageTk.PhotoImage(img)
     lbl = Label(image=photo)
